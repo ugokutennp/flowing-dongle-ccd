@@ -3,6 +3,7 @@ DIY Multiple Connection Watchman Dongle for SteamVR
 FlowingDongle is a very simple dongle for SteamVR that can connect four devices simultaneously with a built-in nrf52840 module and a USB hub.
 ## Hardware
 Includes PCB data created in kicad6 and 3D model data of the case.
+
 The main components are made of the following.
 || components |
 |--|--|
