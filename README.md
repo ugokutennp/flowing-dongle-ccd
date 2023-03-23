@@ -8,6 +8,7 @@ The main components are made of the following.
 |--|--|
 | USB 2.0 Hub Controller |FE1.1s  |
 |nrf52840 module| MS88SF2 |
+
 The PCB design and schematic is minimal and not perfect, although stable operation has been confirmed.
 
 ## Firmware
