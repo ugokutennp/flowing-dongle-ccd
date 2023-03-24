@@ -1,9 +1,9 @@
 # FlowingDongleCCD
 DIY Multiple Connection Watchman Dongle for SteamVR
+![dongle](https://github.com/ugokutennp/FlowingDongleCCD/blob/main/images/DSC04538.JPG)
 FlowingDongle is a very simple dongle for SteamVR that can connect four devices simultaneously with a built-in nrf52840 module and a USB hub.
 ## Hardware
 Includes PCB data created in kicad6 and 3D model data of the case.
-
 The main components are made of the following.
 || components |
 |--|--|
@@ -23,3 +23,11 @@ Firmware comes from the following locations.
 | Application  |  temp_app_stamped.bin |  C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\indexhmd\resources\firmware\radio\gd_1558748372_dfu | 
 
 ## Bootloader Build
+Install [Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm) and Arm Embedded Toolchain ([gcc-arm-none-eabi-9-2020-q2-update-win32.exe](https://developer.arm.com/downloads/-/gnu-rm)) and build with the following command.
+
+    cd Desktop\nRF5_SDK_17.1.0_ddde560\examples\dfu\open_bootloader\pca10056_usb_debug\armgcc
+    make
+
+## IndexHMD firmware optimization
+
+## Firmware conversion (bin to hex)
