@@ -29,5 +29,17 @@ Install [Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm) a
     make
 
 ## IndexHMD firmware optimization
+Open temp_app_stamped.bin with a hex editor and edit the following items.
+| adress  |  before |  after | effect |
+|---|---|---|---|
+| 0x1839D  |  1|9 |disable index audio device |
+|  0x162E0 |  Valve VR Radio | any string you like| rename USB device|
 
 ## Firmware conversion (bin to hex)
+Convert firmware using [srec_cat_exe](https://sourceforge.net/projects/srecord/files/srecord-win32/).
+
+    cd C:\Users\marim\Desktop\Dongle\gd_1558748372_dfu
+    srec_cat.exe s140_nrf52_6.1.1_softdevice.bin -Binary -offset 0x1000 -o s140_nrf52_6.1.1_softdevice.hex -Intel
+    srec_cat.exe temp_app_stamped.bin -Binary -offset 0x26000 -o temp_app_stamped.hex -Intel
+## License
+The license applies to hardware data only.
