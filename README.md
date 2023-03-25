@@ -10,6 +10,7 @@ The main components are made of the following.
 | USB 2.0 Hub Controller |FE1.1s  |
 |nrf52840 module| MS88SF2 |
 
+BOM can be viewed [here](https://htmlpreview.github.io/?https://github.com/ugokutennp/FlowingDongleCCD/blob/main/Hardware/PCB/flowing_dongle/flowing_dongle_bom.html).
 The PCB design and schematic is minimal and not perfect, although stable operation has been confirmed.
 
 ## Firmware
