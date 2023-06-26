@@ -13,6 +13,9 @@ The main components are made of the following.
 BOM can be viewed [here](https://htmlpreview.github.io/?https://github.com/ugokutennp/FlowingDongleCCD/blob/main/Hardware/PCB/flowing_dongle/flowing_dongle_bom.html).
 The PCB design and schematic is minimal and not perfect, although stable operation has been confirmed.
 
+[schematic](https://github.com/ugokutennp/FlowingDongleCCD/blob/main/images/flowing_dongle_schematic.pdf),
+[pcb_design](https://github.com/ugokutennp/FlowingDongleCCD/blob/main/images/flowing_dongle_pcb.jpg)
+
 ## Firmware
 By writing the four hex files via SWD using a device such as Jlink, it can be used immediately as a Watchman Dongle.
 Firmware comes from the following locations.
