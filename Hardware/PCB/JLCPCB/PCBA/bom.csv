@@ -1,0 +1,10 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3",0603,3,10uF,
+D1,0603,1,LED,
+J1,HRO_TYPE-C-31-M-12,1,TYPE-C-31-M-12,
+"R1, R2",0603,2,5.1k,
+R3,0603,1,2.7kΩ(+-1%),
+R4,0603,1,R,
+U1,SSOP-28_3.9x9.9mm_P0.635mm,1,FE1.1s,
+"U2, U3, U4, U5",XCVR_MS88SF2,4,MS88SF2,
+X1,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,12MHz,
