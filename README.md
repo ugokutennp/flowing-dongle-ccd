@@ -36,7 +36,7 @@ Install [Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm) a
 Open temp_app_stamped.bin with a hex editor and edit the following items.
 | adress  |  before |  after | effect |
 |---|---|---|---|
-| 0x1839D  |  1|B9 |disable index audio device |
+| 0x1839D  |  B1|B9 |disable index audio device |
 |  0x162E0 |  Valve VR Radio | any string you like| rename USB device|
 
 ## Firmware conversion (bin to hex)
